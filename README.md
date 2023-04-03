@@ -1,11 +1,11 @@
 ### Complaint Classification
-The project is divided into two stages. The [initial phase](https://github.com/elifayanoglu/complaint-classification/tree/main/birinci_asama) involves using sentiment analysis to identify if customer feedback includes any complaints. The [subsequent stage](https://github.com/elifayanoglu/complaint-classification/tree/main/ikinci_asama) includes categorizing the identified complaints into one of five predefined categories based on their similarity scores.
+The project is divided into two stages. The [initial stage](https://github.com/elifayanoglu/complaint-classification/tree/main/birinci_asama) involves using sentiment analysis to identify if customer feedback includes any complaints. The [subsequent stage](https://github.com/elifayanoglu/complaint-classification/tree/main/ikinci_asama) includes categorizing the identified complaints into one of five predefined categories based on their similarity scores.
 
 #### Usage
 Inside the [first_asama](https://github.com/elifayanoglu/complaint-classification/tree/main/birinci_asama) folder, sentences are split into tokens using Word2Vec, BERT and BOW methods.
 Then, using SVM, LR, CNN + LSTM and MNB classifiers for these methods, respectively, the method that gave the most successful results was used in the second stage.
 
-In the [second_stage](https://github.com/elifayanoglu/complaint-classification/tree/main/ikinci_asama) folder, we save the most successful model we obtained in the first stage with dump.py.
+In the [ikinci_asama](https://github.com/elifayanoglu/complaint-classification/tree/main/ikinci_asama) folder, we save the most successful model we obtained in the first stage with dump.py.
 There are functions required for loading and categorizing the "weights.h5" weight that we have registered with cnn_pickle.py.
 All the steps we have implemented for W2V with w2v_kategorize2.py have been combined into a single function and tested with examples.
 A version tested with BERT is available in the cosine_sim_emb91.py file.
