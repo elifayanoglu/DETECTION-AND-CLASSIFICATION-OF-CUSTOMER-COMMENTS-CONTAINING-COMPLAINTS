@@ -3,7 +3,7 @@
 This project consists of two phases. The first stage is to determine whether customer comments contain complaints or not by sentiment analysis.
 The second step is to classify the comments found to contain complaints by measuring their similarities to 5 predetermined categories.
 
-###Usage
+### Usage
 Inside the first_asama folder, sentences are split into tokens using Word2Vec, BERT and BOW methods.
 Then, using SVM, LR, CNN + LSTM and MNB classifiers for these methods, respectively, the method that gave the most successful results was used in the second stage.
 
@@ -15,12 +15,12 @@ A version tested with BERT is available in the cosine_sim_emb91.py file.
 
 
 
-#şikayet-sınıflandırma
-##TR
+# şikayet-sınıflandırma
+## TR
 Bu proje iki aşamadan oluşmaktadır. Birinci aşama, duygu analizi ile müşteri yorumlarının şikayet içerip içermediğinin tespitini yapmaktadır.
 İkinci aşama ise şikayet içerdiği tespit edilen yorumların önceden belirlenmiş olan 5 adet kategoriye olan benzerlikleri ölçülerek sınıflandırılmasıdır.
 
-###Kullanım
+### Kullanım
 birinci_asama klasörünün içinde Word2Vec, BERT ve BOW yöntemleri kullanılarak cümleler tokenlarına ayrılmıştır. 
 Daha sonra sırasıyla bu yöntemler için SVM, LR, CNN + LSTM ve MNB sınıflandırıcıları kullanılarak en başarılı sonucu veren yöntem ikinci aşamada kullanılmıştır.
 
