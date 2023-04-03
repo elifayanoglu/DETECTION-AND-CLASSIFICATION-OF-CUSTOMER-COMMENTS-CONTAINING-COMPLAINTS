@@ -1,7 +1,6 @@
 # complaint-classification
 ## EN:
-This project consists of two phases. The first stage is to determine whether customer comments contain complaints or not by sentiment analysis.
-The second step is to classify the comments found to contain complaints by measuring their similarities to 5 predetermined categories.
+The project is divided into two stages. The initial phase involves using sentiment analysis to identify if customer feedback includes any complaints. The subsequent stage includes categorizing the identified complaints into one of five predefined categories based on their similarity scores.
 
 ### Usage
 Inside the first_asama folder, sentences are split into tokens using Word2Vec, BERT and BOW methods.
@@ -12,11 +11,10 @@ There are functions required for loading and categorizing the "weights.h5" weigh
 All the steps we have implemented for W2V with w2v_kategorize2.py have been combined into a single function and tested with examples.
 A version tested with BERT is available in the cosine_sim_emb91.py file.
 
-
-
+----
 
 # şikayet-sınıflandırma
-## TR
+## TR:
 Bu proje iki aşamadan oluşmaktadır. Birinci aşama, duygu analizi ile müşteri yorumlarının şikayet içerip içermediğinin tespitini yapmaktadır.
 İkinci aşama ise şikayet içerdiği tespit edilen yorumların önceden belirlenmiş olan 5 adet kategoriye olan benzerlikleri ölçülerek sınıflandırılmasıdır.
 
