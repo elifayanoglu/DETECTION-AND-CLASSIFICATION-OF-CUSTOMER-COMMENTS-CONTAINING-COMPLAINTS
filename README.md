@@ -1,5 +1,5 @@
 # complaint-classification
-##EN:##
+## EN:
 This project consists of two phases. The first stage is to determine whether customer comments contain complaints or not by sentiment analysis.
 The second step is to classify the comments found to contain complaints by measuring their similarities to 5 predetermined categories.
 
