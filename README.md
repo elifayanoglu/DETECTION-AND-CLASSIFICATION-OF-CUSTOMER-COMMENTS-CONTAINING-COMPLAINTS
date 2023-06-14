@@ -22,7 +22,7 @@ Bu proje iki aşamadan oluşmaktadır. [Birinci aşama](https://github.com/elifa
 
 #### Kullanım
 [birinci_asama](https://github.com/elifayanoglu/complaint-classification/tree/main/birinci_asama) klasörünün içinde Word2Vec, BERT ve BOW yöntemleri kullanılarak cümleler tokenlarına ayrılmıştır. 
-Daha sonra sırasıyla bu yöntemler için SVM, LR, CNN + LSTM ve MNB sınıflandırıcıları kullanılarak en başarılı sonucu veren yöntem ikinci aşamada kullanılmıştır.
+Daha sonra sırasıyla bu yöntemler için SVM, LR, CNN + LSTM ve MNB sınıflandırıcıları kullanılarak en başarılı sonucu veren teknik ikinci aşamada kullanılmıştır.
 
 [ikinci_asama](https://github.com/elifayanoglu/complaint-classification/tree/main/ikinci_asama) klasörünün içinde dump.py ile birinci aşamada elde ettiğimiz en başarılı modeli kaydediyoruz.
 cnn_pickle.py ile kaydetmiş olduğumuz "weights.h5" ağırlığının yüklenmesi ve kategorileme için gerekli fonksiyonlar yer almaktadır.
