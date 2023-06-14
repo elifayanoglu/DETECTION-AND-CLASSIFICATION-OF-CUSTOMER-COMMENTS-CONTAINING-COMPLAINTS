@@ -1,4 +1,4 @@
-This project was developed to identify and classify customer comments containing complaints. In the classification phase of the project, unlabeled data were used.
+
 ### Complaint Classification
 The project is divided into two stages. The [initial stage](https://github.com/elifayanoglu/complaint-classification/tree/main/birinci_asama) involves using sentiment analysis to identify if customer feedback includes any complaints. The [subsequent stage](https://github.com/elifayanoglu/complaint-classification/tree/main/ikinci_asama) includes categorizing the identified complaints into one of five predefined categories based on their similarity scores.
 
